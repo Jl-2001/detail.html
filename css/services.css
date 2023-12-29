@@ -1,0 +1,117 @@
+html {
+    font-size: 90%;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+    font-family: 'Metrophobic', sans-serif;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+@media (prefers-reduce-motion) {
+    html {
+        scroll-behavior: initial;
+    }
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100%;
+    max-width: 100%;
+    padding-bottom: 8rem;
+    background-color: #202124;
+}
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background-color: white;
+    transition: all .50s ease;
+}
+
+.logo {
+    display: flex;
+    align-items: center start;
+}
+.logo img{
+    height: 210px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 0px;
+    background: white;
+}
+.navbar li{
+    list-style: none;
+    padding: 0 5px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 510;
+    padding: 5px 0;
+    margin: 10px 30px;
+    transition: all .50s ease;
+}
+.navbar a:hover{
+    color: rgba(0, 170, 255, 0.895);
+}
+
+
+/*begin services */
+.serv {
+    position: absolute;
+    top: 48%;
+    padding-left: 2rem;
+    transform: translate(0, -50%);
+    color: white;
+    font-family:'Contrail One', sans-serif;
+}
+
+.serv h1{
+    font-size: 25px;
+    font-family: 'Contrail One', sans-serif;
+    color: rgba(0, 170, 255, 0.895);
+}
+
+.serv p{
+    font-size: 25px;
+    font-family: 'Contrail One', sans-serif;
+}
+
+ 
+/*end services */
+
+
+/*begin footer */
+#footer .nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    padding: 40rem 50px 50px;
+}
+#footer .nav-item a{
+    font-family: 'Contrail One', sans-serif;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    transition: all .50s ease;
+}
+#footer .nav-item a:hover{
+    color: rgba(0, 170, 255, 0.895);
+}
+
+/*end footer */
