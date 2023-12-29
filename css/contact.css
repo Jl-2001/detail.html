@@ -41,6 +41,7 @@ body {
 }
 .logo img{
     height: 210px;
+    width: 17rem;
 }
 
 .navbar{
@@ -89,6 +90,10 @@ body {
     font-family: 'Contrail One', sans-serif;
 }
 
+.now a{
+    color: rgba(0, 170, 255, 0.895);
+}
+
  
 /*end now */
 
@@ -106,6 +111,7 @@ body {
 #footer .nav-item a{
     font-family: 'Contrail One', sans-serif;
     color: white;
+    font-size: 25px;
     text-decoration: none;
     transition: all .50s ease;
 }

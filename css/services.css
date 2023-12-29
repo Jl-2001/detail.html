@@ -41,6 +41,7 @@ body {
 }
 .logo img{
     height: 210px;
+    width: 17rem;
 }
 
 .navbar{
@@ -72,7 +73,7 @@ body {
 /*begin services */
 .serv {
     position: absolute;
-    top: 48%;
+    top: 52%;
     padding-left: 2rem;
     transform: translate(0, -50%);
     color: white;
@@ -80,6 +81,7 @@ body {
 }
 
 .serv h1{
+    text-align: center;
     font-size: 25px;
     font-family: 'Contrail One', sans-serif;
     color: rgba(0, 170, 255, 0.895);
