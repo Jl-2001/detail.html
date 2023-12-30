@@ -48,6 +48,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 0%;
     padding-top: 0px;
     background: white;
 }
@@ -117,3 +118,96 @@ body {
 }
 
 /*end footer */
+
+@media (max-width:477px){
+    .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: white;
+    transition: all .50s ease;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    height: 90px;
+    width: 7rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0%;
+    padding-top: 10px;
+    background: white;
+}
+.navbar li{
+    list-style: none;
+    padding: 0 5px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 10;
+    padding: 1px;
+    margin: 1px 1px;
+    transition: all .50s ease;
+}
+.navbar a:hover{
+    color: rgba(0, 170, 255, 0.895)
+}
+/*begin services */
+.serv {
+    position: absolute;
+    top: 92%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transform: translate(0, -50%);
+    color: white;
+    font-family:'Contrail One', sans-serif;
+}
+
+.serv h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Contrail One', sans-serif;
+    color: rgba(0, 170, 255, 0.895);
+}
+
+.serv p{
+    font-size: 25px;
+    font-family: 'Contrail One', sans-serif;
+}
+
+ 
+/*end services */
+
+
+/*begin footer */
+#footer .nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    padding: 75rem 50px 50px;
+}
+#footer .nav-item a{
+    font-family: 'Contrail One', sans-serif;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    transition: all .50s ease;
+}
+#footer .nav-item a:hover{
+    color: rgba(0, 170, 255, 0.895);
+}
+
+/*end footer */
+}
